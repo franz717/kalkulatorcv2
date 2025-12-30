@@ -1,0 +1,15 @@
+{
+  "name": "cyber-voids-c2",
+  "version": "1.0.0",
+  "description": "C2 Server for Android Malware",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vercel/node": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
